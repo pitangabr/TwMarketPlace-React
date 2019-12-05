@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
@@ -11,13 +10,14 @@ import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 // import Desh from './pages/desh';
 // import PerfilUsuario from './pages/perfilusuario';
 // import DescricaoProduto from './pages/descricaoprodu';
+import Home from './pages/Home/home';
 import NaoEncontrado from './pages/naoencontrado/NaoEncontrado';
 
 const Ways = (
     <Router>
         <div>
             <Switch>
-                <Route exact path = "/" component = {App}/>
+                <Route exact path = "/" component = {Home}/>
                 {/* <Route path = "/login" component = {Login}/>
                 <Route path = "/cadastro" component = {Cadastro}/>
                 <Route path = "/desh" component = {Desh}/>
