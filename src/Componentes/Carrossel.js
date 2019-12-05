@@ -17,9 +17,9 @@ const CarouselPage = () => {
         showIndicators={true}
         className="z-depth-1"
       >
-        <MDBCarouselInner>
-          <MDBCarouselItem itemId="1">
-            <MDBView>
+        <MDBCarouselInner className="slide">
+          <MDBCarouselItem  itemId="1">
+            <MDBView >
               <img
                 className="d-block w-100"
                 src="https://mdbootstrap.com/img/Photos/Slides/img%20(130).jpg"

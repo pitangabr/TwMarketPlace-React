@@ -10,6 +10,7 @@ body{
     flex-wrap: wrap;
     min-height: 100%;
     font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -18,9 +19,9 @@ body{
 #barra_acessibilidade{
     background: #1d2671;
     height: 5.125vh;
-    align-items: center;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 
@@ -37,6 +38,7 @@ body{
 
 .barra_conteudo li {
     margin: 0 0.4375em;
+    margin-top: 1em;
 }
 
 .barra_conteudo a {
@@ -310,14 +312,8 @@ body{
     flex-wrap: wrap;
 }
 
-#banner {
-    height: 50vh;
-    
-}
-
-#banner img {
-    height: 45vh;
-
+.slide img {
+    height: 49vh;
 }
 
 /*<!--Fim home_banner-->*/
@@ -369,7 +365,7 @@ body{
     justify-content: space-between;
 }
 
-.container{
+.Container{
     width: 90%;
     display: flex;
     flex-wrap: wrap;
@@ -404,7 +400,7 @@ body{
     color: white;
 }
 
-.container img{
+.Container img{
     position: relative;
     margin-bottom: 1.5em;
     margin-right: .5em;  
@@ -523,7 +519,7 @@ body{
         left: 2em;
     }
 
-    .container {
+    .Container {
         width: 100%;
         display: flex;
         flex-wrap: wrap;
