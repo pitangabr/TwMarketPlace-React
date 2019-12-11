@@ -11,13 +11,14 @@ import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 // import PerfilUsuario from './pages/perfilusuario';
 // import DescricaoProduto from './pages/descricaoprodu';
 import Home from './pages/Home/home';
+import Cadastro from './pages/Cadastro/cadastro';
 import NaoEncontrado from './pages/naoencontrado/NaoEncontrado';
 
 const Ways = (
     <Router>
         <div>
             <Switch>
-                <Route exact path = "/" component = {Home}/>
+                <Route exact path = "/" component = {Cadastro}/>
                 {/* <Route path = "/login" component = {Login}/>
                 <Route path = "/cadastro" component = {Cadastro}/>
                 <Route path = "/desh" component = {Desh}/>
