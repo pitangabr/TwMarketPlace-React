@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../../assets/PagesHtml/perfil_Usuario/CSS/PerfilUsuario.css';
 import MenuAdm from '../../Componentes/MenuADM';
 
-class adm extends Component {
+class admInteresse extends Component {
     render() {
         return(
         <>
@@ -27,20 +27,20 @@ class adm extends Component {
 
                 <section id="lateral_direita">
                     <div class="topo_direito">
-                        <h1>Perfil</h1>
+                        <h1>Interesses</h1>
                     </div>
                     <div class="canto_direito">
                         <ul>
-                            <li><a href="#">> Product name  -  productcode:#12121212</a></li>
-                            <li><a href="#">> Product name  -  productcode:#12121212</a></li>
-                            <li><a href="#">> Product name  -  productcode:#12121212</a></li>
-                            <li><a href="#">> Product name  -  productcode:#12121212</a></li>
-                            <li><a href="#">> Product name  -  productcode:#12121212</a></li>
-                            <li><a href="#">> Product name  -  productcode:#12121212</a></li>
-                            <li><a href="#">> Product name  -  productcode:#12121212</a></li>
-                            <li><a href="#">> Product name  -  productcode:#12121212</a></li>
-                            <li><a href="#">> Product name  -  productcode:#12121212</a></li>
-                            <li><a href="#">> Product name  -  productcode:#12121212</a></li>
+                            <li><a href="#">> Product name  -  productcode:#12121212 - Tem um novo interesse</a></li>
+                            <li><a href="#">> Product name  -  productcode:#12121212 - Tem um novo interesse</a></li>
+                            <li><a href="#">> Product name  -  productcode:#12121212 - Tem um novo interesse</a></li>
+                            <li><a href="#">> Product name  -  productcode:#12121212 - Tem um novo interesse</a></li>
+                            <li><a href="#">> Product name  -  productcode:#12121212 - Tem um novo interesse</a></li>
+                            <li><a href="#">> Product name  -  productcode:#12121212 - Tem um novo interesse</a></li>
+                            <li><a href="#">> Product name  -  productcode:#12121212 - Tem um novo interesse</a></li>
+                            <li><a href="#">> Product name  -  productcode:#12121212 - Tem um novo interesse</a></li>
+                            <li><a href="#">> Product name  -  productcode:#12121212 - Tem um novo interesse</a></li>
+                            <li><a href="#">> Product name  -  productcode:#12121212 - Tem um novo interesse</a></li>
                         </ul>
                     </div>
                 </section>
@@ -50,4 +50,4 @@ class adm extends Component {
     }
 }
 
-export default adm;
+export default admInteresse;

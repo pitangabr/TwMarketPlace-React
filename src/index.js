@@ -12,18 +12,25 @@ import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 // import DescricaoProduto from './pages/descricaoprodu';
 import Home from './pages/Home/home';
 import NaoEncontrado from './pages/naoencontrado/NaoEncontrado';
-import adm from './pages/ADM/adm';
+import admListaUsuarios from './pages/ADM/admListaUsuarios';
+import admInteresse from './pages/ADM/admInteresse'
+import admNovosCadastros from './pages/ADM/admNovosCadastros';
 
 const Ways = (
     <Router>
         <div>
             <Switch>
-                <Route exact path = "/" component = {adm}/>
-                {/* <Route path = "/login" component = {Login}/>
-                <Route path = "/cadastro" component = {Cadastro}/>
-                <Route path = "/desh" component = {Desh}/>
-                <Route path = "/perfilusuario" component = {PerfilUsuario}/>
-                <Route path = "/descricaoproduto" component = {DescricaoProduto}/> */}
+                {/* <Route exact path = "/" component = {login}/> */}
+                {/* <Route path = "/cadastro" component = {Cadastro}/> */}
+                <Route path = "/home" component = {Home}/>
+                <Route path = "/perfiladminteresse" component = {admInteresse}/>
+                {/* <Route path = "/perfiladmprodutos" component = {admProdutos}/> */}
+                {/* <Route path = "/perfiladm" component = {DescricaoProduto}/> */}
+                <Route path = "/perfiladmlistadeusuarios" component = {admListaUsuarios}/>
+                <Route path = "/perfiladmnovoscadastros" component = {admNovosCadastros}/>
+                {/* <Route path = "/perfiladmnotificacoes" component = {DescricaoNotificacoes}/> */}
+                {/* <Route path = "/perfilusuario" component = {PerfilUsuario}/> */}
+                {/* <Route path = "/descricaoproduto" component = {DescricaoProduto}/> */}
                 <Route component = {NaoEncontrado}/>
             </Switch>
         </div>
