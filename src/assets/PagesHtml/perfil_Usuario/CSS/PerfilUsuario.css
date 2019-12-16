@@ -15,7 +15,7 @@
 
 #barra_acessibilidade {
     background: #1d2671;
-    height: 5.125vh;
+    height: 5vh;
     align-items: center;
     display: flex;
     justify-content: flex-end;
@@ -27,6 +27,7 @@
     display: flex;
     font-size: 0.9375em;
     margin-right: 1em;
+    margin-top: 1em;
 }
 
 #barra_acessibilidade a:hover {
@@ -116,7 +117,7 @@
     display: flex;
     justify-content: right;
     list-style: none;
-    margin-top: .3em;
+    margin-top: 1.5em;
 }
 
 .barramenu1 li{
@@ -170,13 +171,6 @@
     justify-content: center;
 }
 
-.perfil img{
-    max-width: 15.7vw;
-    border: 2px solid #ccc;
-    border-radius: 10em;
-    margin-top:0;
-}
-
 .perfil:hover .texto {
     opacity:1;
 }
@@ -198,30 +192,32 @@
     text-decoration-color: white;
 }
 
-.texto {
-    padding: 1em 1.35em;
-    text-align:center;
-    color:white;
-    opacity:0;
-    transition: opacity .2s linear;
-    background-color:rgba(0,0,0,.7);
-    position: absolute;
-    top: 9em;
-    left: .4em;
-}
 
 .nome_usuario{
     font-size: 1.3em;
     text-align: center;
-    margin: .1em auto;
+    margin: 0 auto;
     padding: .5em;
-    background-color: rgba(66, 62, 62, 0.548);
+    background-color: #1d2571b6;
     border: rgba(66, 62, 62, 0.548);
     border-radius: 2em;
 }
 
+.nome_usuario p {
+    margin: auto;
+    color: white;
+}
+
+.tabulatura {
+    background-color: #f16984; 
+    text-transform: uppercase;
+    font-size: 1em;
+    color: white;
+    font-weight: bold;
+}
+
 #menu_lateral_esquerdo li{
-    padding: 1.46em 0;
+    padding: 1.13em 0;
     text-align: center;
     border: 1px solid #ccc;  
 }
@@ -232,7 +228,7 @@
     text-decoration: none;
     color: black;
     font-weight: bold;
-    padding: 1.3em 4.9em;
+    padding: 1.9em 4.9em;
 }
 
 #menu_lateral_esquerdo li:hover{
@@ -246,8 +242,8 @@
 }
 
 .topo_direito{
-    max-width: 75.5vw;
-    height: 5em;
+    max-width: 100vw;
+    height: 4.4em;
     background-color: #1d2571d7;
     display: flex;
     align-items: center;
@@ -256,7 +252,12 @@
 .topo_direito h1{
     color: white;
     text-transform: uppercase;
-    margin-left: 1em;
+    text-decoration: white;
+    text-decoration: underline;
+    font-weight: bolder;
+    margin: 0 auto;
+    font-size: 2em;
+    font-family: url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 }
 
 /*--------------------Corpo lado Direito----------------------*/
@@ -271,7 +272,7 @@
 .canto_direito li{
     border-bottom: 1px solid #ccc;
     max-width: 75.5vw;
-    padding: 1em;
+    padding: .93em;
     list-style: inside;
 }
 
