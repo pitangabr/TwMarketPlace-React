@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/PagesHtml/HOME/CSS/style.css';
 
-import logo from '../assets/imagens/rodape.png';
+import logo from '../assets/imagens/logo1.png';
 
 function Rodape () {
     return (
