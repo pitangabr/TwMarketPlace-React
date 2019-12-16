@@ -84,14 +84,6 @@ function Menu() {
                             <p>Smartphones</p>
                         </a></li>
 
-                        <li><a href="#">
-                                {/* <!--Impressoras--> */}
-                                <div className="lista_categorias">
-                                    <img src={hover_Impressora} alt="Impressoras" className="impressoras"/>
-                                    <img src={impressora} alt="Impressoras"/>
-                                </div>
-                            <p>Impressoras</p>
-                        </a></li>
 
                         <li><a href="#">
                                 {/* <!--Monitores--> */}

@@ -15,6 +15,10 @@ import NaoEncontrado from './pages/naoencontrado/NaoEncontrado';
 import admListaUsuarios from './pages/ADM/admListaUsuarios';
 import admInteresse from './pages/ADM/admInteresse'
 import admNovosCadastros from './pages/ADM/admNovosCadastros';
+import Notebooks from './pages/Home/Notebooks';
+import Smartphone from './pages/Home/Smartphone';
+import Monitor from './pages/Home/Monitor';
+import Acessorio from './pages/Home/Acessórios';
 
 const Ways = (
     <Router>
@@ -24,6 +28,10 @@ const Ways = (
                 {/* <Route path = "/cadastro" component = {Cadastro}/> */}
                 <Route path = "/home" component = {Home}/>
                 <Route path = "/perfiladminteresse" component = {admInteresse}/>
+                <Route path = "/notebooks" component = {Notebooks}/>
+                <Route path = "/smartphones" component = {Smartphone}/>
+                <Route path = "/monitores" component = {Monitor}/>
+                <Route path = "/acessorios" component = {Acessorio}/>
                 {/* <Route path = "/perfiladmprodutos" component = {admProdutos}/> */}
                 {/* <Route path = "/perfiladm" component = {DescricaoProduto}/> */}
                 <Route path = "/perfiladmlistadeusuarios" component = {admListaUsuarios}/>

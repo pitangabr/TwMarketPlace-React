@@ -175,6 +175,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     align-items: center;
+    justify-content: center;
     height: 20vh;
 }
 
@@ -186,7 +187,7 @@ body{
 
 #menu_inferior li {
     list-style: none;
-    margin: 0.75em;
+    margin: 1em;
 }
 
 #menu_inferior p {
@@ -356,6 +357,11 @@ body{
     text-decoration: none;
     font-size: 1em;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+.pai_container {
+    display: flex;
+    justify-content: center;
 }
 
 
