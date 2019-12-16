@@ -4,8 +4,6 @@ import '../assets/PagesHtml/HOME/CSS/style.css';
 //Importando as imagens
 import logo from '../assets/imagens/logo1.png';
 import lupa from  '../assets/imagens/pesquisa.png';
-import compra from  '../assets/imagens/bags.png';
-import message from  '../assets/imagens/message.png';
 import hover_Notebook from  '../assets/imagens/Hover/laptop.png';
 import notebook from  '../assets/imagens/laptop.png';
 import hover_Celular from  '../assets/imagens/Hover/mobile-phone.png';
@@ -49,13 +47,6 @@ function Menu() {
                             <input type="search" name="Busca" className="input_buscar" placeholder="Buscar..."/>
                             <img id="lupa" src={lupa} alt="Pesquisar"/>
                         </form>
-                    </div>
-
-                    <div className="icones_compras_mensagem">
-                        <a href="#"><img id="sacola_compras" src={compra}
-                        alt="Sacola de pedidos"/></a>
-
-                        <a href="#"><img id="mensagens" src={message} alt="Notificações"/></a>
                     </div>
 
                     <div className="minhaconta_sair">
