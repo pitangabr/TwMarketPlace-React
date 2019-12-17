@@ -106,7 +106,7 @@ class Login extends Component {
                                 </div>
 
                                 <div className="entre1">
-                                    <button onClick={this.realizarLogin.bind(this)} type = "submit">Entrar</button>
+                                    <button  class="border-0" onClick={this.realizarLogin.bind(this)} type = "submit">Entrar</button>
                                 </div>
 
                                 <div className="cadastro">

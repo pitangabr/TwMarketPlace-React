@@ -1,7 +1,7 @@
 /* Início da edição do campo de login */
     
 #background{
-    background-image: " linear-gradient(" + " rgb(29,38,113,0.8), rgb(92,225,230,0.6), rgb(241,105,132,1)), url('../imagens/back.jpg" + ")";
+    background-image: linear-gradient(rgb(29,38,113,0.8), rgb(92,225,230,0.6), rgb(241,105,132,1)), url('../../imagens/back.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;  
@@ -21,7 +21,7 @@
 .logo_tw{ /* Edição da imagem de logo */ 
     width: 100vw;
     max-width: 10vw;
-    margin-top: .5em;
+    margin-top: 1.4em;
 }
 
 .logo_tw img{ /* Edição da imagem de logo */ 
@@ -47,7 +47,7 @@
     max-width: 25vw;
     display: flex;
     flex-direction: column;
-    top: 2em;
+    margin-top: 2.5em;
 }
 
 /* Edição do check da pagina "mantenha-me conectado" */
@@ -84,7 +84,7 @@
     text-decoration-color: white;
 }
 
-input[type=text] { /* Edição do quadrado do input */ 
+input[type=name] { /* Edição do quadrado do input */ 
     width: 100vw;
     max-width: 25vw;
     padding: 0.75em 1.25em;
@@ -93,13 +93,37 @@ input[type=text] { /* Edição do quadrado do input */
     border: none;
     border-bottom: 0.0625em solid #808080;
     background: rgba(0,0,0,0);
-    margin-top: 2em;
+    margin-top: .1em;
+    
 }
+input[type=password] { /* Edição do quadrado do input */ 
+    width: 100vw;
+    max-width: 25vw;
+    padding: 0.75em 1.25em;
+    margin: 0.5em 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 0.0625em solid #808080;
+    background: rgba(0,0,0,0);
+    margin-top: .1em;
+    
+}
+
 
 .entre1{ /* Edição do campo de acesso "entrar"  */
-    padding: 0.56em 6.25em;
+    padding: -1.44em 6.25em; 
 }
-
+button {
+    border-radius: 9px; 
+    background: #f16984;
+    color: white;
+    padding: .8em;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    width: 9vw;
+    height: 3.5vw;
+}
 .login_admin{
     padding: 0.5625em 6.25em;
     margin-top: 0;
