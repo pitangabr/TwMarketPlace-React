@@ -1,0 +1,132 @@
+#produto{
+    display: flex;
+    height: 78vh;
+    align-items: center;
+    justify-content: center;
+}
+
+        /*------------------IMAGEMG------------------*/
+.imagemG{
+    border: #fff solid 1px;
+    width: 30vw;
+    height: 50vh;
+    border-radius: 1em;
+    /* margin-top: 2em; */
+    box-shadow: 0px 2px 9px #ccc;
+}
+.imagem1{
+    display: flex;
+    justify-content: center;
+}
+.imagem1 img{
+    /* border: solid 3px #d1474e; */
+    width: 25vw;
+    height: 45vh;
+}
+
+        /*------------------TITULOT------------------*/
+.tituloT{
+    /* border: solid 5px rgb(172, 220, 241); */
+    display: flex;
+    flex-direction: column;
+    margin-left: 4em;
+}
+.tituloNot h1{
+    width: 33vw;
+        /* border: solid 3px #fafc81; */
+}
+.tituloT p{
+    color: #f16984;
+    font-weight: bolder;
+    font-size: 2em;
+}
+.btn{
+
+        /* border: solid 5px #380d15; */
+    height: 10vh;
+    width: 20vw; 
+    margin-top: 9em;
+    background-color: #f16984 !important;
+    border-radius: 2em !important;
+    border: #fff solid 1px !important;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.btn_tenhoInteresse span {
+    width: 17vw;
+    font-size: 1.5em;
+    height: 6vh;
+    padding-top: .9em;
+    padding-bottom: 1em;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+}
+.btn span:hover{
+    text-decoration-line: underline
+}
+
+
+        /*------------------CORPO ANUNCIO------------------*/
+#corpoanuncio h2{
+    width: 13vw;
+    margin-top: 1em;
+    margin-left: 2em;
+}
+#corpoanuncio p{
+    width: 90vw;
+    margin: 1em auto;
+}
+
+        /*------------------TABELA------------------*/
+#tabela_esp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    margin: 1em;
+}
+
+#tabela_esp td{
+    border: 2px solid black;
+    padding: .9em;
+    
+}
+
+.ce{
+    background: #212122c7;
+    color: white;
+    width: 20vw;
+    height: 9vh;
+}
+.cd{
+    background: rgb(175, 175, 175);
+    width: 55vw;
+    height: 10vh;
+}
+
+        /*Footer*/
+.hrHome{
+    width: 100vw;
+}
+.footerHome {
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.texto_rodape {
+    font-size: 1em;
+    font-style: italic;
+}
+.logo_thw {
+    align-items: center;
+    width: 95vw;
+    max-width: 10vw;
+    margin-right: 1em;
+    display: flex;
+    justify-content: center;
+}

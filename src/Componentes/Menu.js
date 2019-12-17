@@ -63,7 +63,7 @@ function Menu() {
 
                     <div className="minhaconta_sair">
                         <ul>
-                            <li><Link to ="/perfiladmlistadeusuarios" className="minhaconta"><span>Minha Conta</span></Link></li>
+                            <li><Link to ="/perfiladm" className="minhaconta"><span>Minha Conta</span></Link></li>
                             <li><a href="../Editado-Tw/login.html" className="botao_sair">Sair</a></li>
                         </ul>
                     </div>

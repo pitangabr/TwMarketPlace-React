@@ -20,7 +20,7 @@ class perfilAdm extends Component {
                         <li><Link to = "/perfiladm">Perfil</Link></li>
                         <li><Link to ="/perfiladminteresse">Interesses</Link></li>
                         <li><Link to = "/perfiladmnotificacoes">Notificações</Link></li>
-                        <li><Link to = "">Produtos</Link></li>
+                        <li><Link to = "/perfiladmprodutos">Produtos</Link></li>
                         <li className= "tabulatura">Usuarios</li>
                         <li><Link to = "/perfiladmnovoscadastros">Novos Cadastros</Link></li>
                         <li><Link to = "/perfiladmlistadeusuarios">Lista de usuários</Link></li>
