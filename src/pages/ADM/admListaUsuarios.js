@@ -17,13 +17,13 @@ class admListaUsuarios extends Component {
                         </div>
                     </div>
                     <ul>
-                        <li><Link href="../TWmarketplace - Perfil usuário/PerfilUsuário.html">Perfil</Link></li>
-                        <li><Link href="">Interesses</Link></li>
-                        <li><Link href="../TWmarketplace - Perfil usuário/PerfilUsuarioConfig.html">Notificações</Link></li>
-                        <li><Link href="#">Produtos</Link></li>
+                        <li><Link to = "/perfiladm">Perfil</Link></li>
+                        <li><Link to = "/perfiladminteresse">Interesses</Link></li>
+                        <li><Link to = "/perfiladmnotificacoes">Notificações</Link></li>
+                        <li><Link to = "">Produtos</Link></li>
                         <li className= "tabulatura">Usuarios</li>
-                        <li><Link href="#">Novos Cadastros</Link></li>
-                        <li><Link href="#">Lista de usuários</Link></li>
+                        <li><Link to = "/perfiladmnovoscadastros">Novos Cadastros</Link></li>
+                        <li><Link to = "/perfiladmlistadeusuarios">Lista de usuários</Link></li>
                     </ul>
                 </section>
 
