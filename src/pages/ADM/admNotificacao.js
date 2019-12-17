@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../../assets/CSS/ADM/PerfilUsuario.css';
 import MenuAdm from '../../Componentes/MenuADM';
+import { Link } from 'react-router-dom';
 
 class Notificacao extends Component {
     render() {
@@ -15,13 +16,13 @@ class Notificacao extends Component {
                         </div>
                     </div>
                     <ul>
-                        <li><a href="../TWmarketplace - Perfil usuário/PerfilUsuário.html">Perfil</a></li>
-                        <li><a href="#">Interesses</a></li>
-                        <li><a href="../TWmarketplace - Perfil usuário/PerfilUsuarioConfig.html">Notificações</a></li>
-                        <li><a href="#">Produtos</a></li>
+                        <li><Link to = "/perfiladm">Perfil</Link></li>
+                        <li><Link to = "/perfiladminteresse">Interesses</Link></li>
+                        <li><Link to = "/perfiladmnotificacoes">Notificações</Link></li>
+                        <li><Link to = "">Produtos</Link></li>
                         <li className= "tabulatura">Usuarios</li>
-                        <li><a href="#">Novos Cadastros</a></li>
-                        <li><a href="#">Lista de usuários</a></li>
+                        <li><Link to = "/perfiladmnovoscadastros">Novos Cadastros</Link></li>
+                        <li><Link to = "/perfiladmlistadeusuarios">Lista de usuários</Link></li>
                     </ul>
                 </section>
 
