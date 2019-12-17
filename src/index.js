@@ -5,9 +5,8 @@ import * as serviceWorker from './serviceWorker';
 
 import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
 
-// import Login from './pages/login';
+import Login from './pages/Login/Login';
 // import Cadastro from './pages/cadastro';
-// import Desh from './pages/desh';
 // import PerfilUsuario from './pages/perfilusuario';
 // import DescricaoProduto from './pages/descricaoprodu';
 import Home from './pages/Home/home';
@@ -15,16 +14,18 @@ import NaoEncontrado from './pages/naoencontrado/NaoEncontrado';
 import admListaUsuarios from './pages/ADM/admListaUsuarios';
 import admInteresse from './pages/ADM/admInteresse'
 import admNovosCadastros from './pages/ADM/admNovosCadastros';
+import Notificacao from './pages/ADM/admNotificacao';
 import Notebooks from './pages/Home/Notebooks';
 import Smartphone from './pages/Home/Smartphone';
 import Monitor from './pages/Home/Monitor';
 import Acessorio from './pages/Home/Acessórios';
+import perfilAdm from './pages/ADM/perfilAdm';
 
 const Ways = (
     <Router>
         <div>
             <Switch>
-                {/* <Route exact path = "/" component = {login}/> */}
+                <Route exact path = "/" component = {Login}/>
                 {/* <Route path = "/cadastro" component = {Cadastro}/> */}
                 <Route path = "/home" component = {Home}/>
                 <Route path = "/perfiladminteresse" component = {admInteresse}/>
@@ -33,10 +34,10 @@ const Ways = (
                 <Route path = "/monitores" component = {Monitor}/>
                 <Route path = "/acessorios" component = {Acessorio}/>
                 {/* <Route path = "/perfiladmprodutos" component = {admProdutos}/> */}
-                {/* <Route path = "/perfiladm" component = {DescricaoProduto}/> */}
+                <Route path = "/perfiladm" component = {perfilAdm}/>
                 <Route path = "/perfiladmlistadeusuarios" component = {admListaUsuarios}/>
                 <Route path = "/perfiladmnovoscadastros" component = {admNovosCadastros}/>
-                {/* <Route path = "/perfiladmnotificacoes" component = {DescricaoNotificacoes}/> */}
+                <Route path = "/perfiladmnotificacoes" component = {Notificacao}/>
                 {/* <Route path = "/perfilusuario" component = {PerfilUsuario}/> */}
                 {/* <Route path = "/descricaoproduto" component = {DescricaoProduto}/> */}
                 <Route component = {NaoEncontrado}/>

@@ -137,19 +137,21 @@ body{
     display: flex;
     justify-content: right;
     list-style: none;
+    margin-top: 1em;
 }
 
 .minhaconta_sair li {
     margin: auto 1.5em auto auto;
 }
 
-.minhaconta_sair a:hover {
+.minhaconta span:hover {
     text-decoration: white;
     text-decoration-line: underline;
+    color: white;
 }
 
 
-.botao_minhaconta {
+.minhaconta {
     background: #f16984;
     padding: .8em;
     border-radius: 0.9375em;

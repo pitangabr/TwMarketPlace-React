@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/PagesHtml/HOME/CSS/style.css';
+import '../assets/CSS/HOME/Home.css';
 import {Link} from 'react-router-dom';
 
 //Importando as imagens
@@ -55,15 +55,15 @@ function Menu() {
                             <img id="sacola_compras" src={compras}alt="Sacola de pedidos" />
                         </Link>
 
-                        <a href="#">
+                        <Link to = "/perfiladmnotificacoes">
                             <img id="mensagens" src={menssage} alt="Notificações"/>
-                        </a>
+                        </Link>
 
                     </div>
 
                     <div className="minhaconta_sair">
                         <ul>
-                            <li><Link to ="/notebooks">Minha Conta</Link></li>
+                            <li><Link to ="/perfiladmlistadeusuarios" className="minhaconta"><span>Minha Conta</span></Link></li>
                             <li><a href="../Editado-Tw/login.html" className="botao_sair">Sair</a></li>
                         </ul>
                     </div>

@@ -1,5 +1,7 @@
 import React from 'react';
-import '../assets/PagesHtml/perfil_Usuario/CSS/PerfilUsuario.css';
+import '../assets/CSS/ADM/PerfilUsuario.css';
+
+import { Link } from 'react-router-dom';
 
 import logo from '../assets/imagens/logo1.png';
 import lupa from  '../assets/imagens/pesquisa.png';
@@ -35,7 +37,7 @@ function MenuAdm() {
             
                         <div className="barramenu1">
                             <ul>
-                                <li><a href="#" className="minhaconta1">Home</a></li>
+                                <li><Link to = "/home" className="minhaconta1">Home</Link></li>
                                 <li><a href="#" className="sair1">Sair</a></li>
                             </ul>
                         </div>

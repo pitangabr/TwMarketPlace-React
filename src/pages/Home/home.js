@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../assets/PagesHtml/HOME/CSS/style.css';
+import '../../assets/CSS/HOME/Home.css';
 import Menu from '../../Componentes/Menu';
 import Rodape from '../../Componentes/Rodape';
 import CarouselPage from '../../Componentes/Carrossel';

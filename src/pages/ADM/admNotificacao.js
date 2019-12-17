@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../../assets/CSS/ADM/PerfilUsuario.css';
 import MenuAdm from '../../Componentes/MenuADM';
 
-class admNovosCadastros extends Component {
+class Notificacao extends Component {
     render() {
         return(
         <>
@@ -11,7 +11,7 @@ class admNovosCadastros extends Component {
                 <section id="menu_lateral_esquerdo">
                     <div class="perfil">
                         <div class="nome_usuario">
-                            <p>Cássio Vincent</p>
+                            <p>Carlos Eduardo</p>
                         </div>
                     </div>
                     <ul>
@@ -27,20 +27,20 @@ class admNovosCadastros extends Component {
 
                 <section id="lateral_direita">
                     <div class="topo_direito">
-                        <h1>Novos Cadastros</h1>
+                        <h1>Notificações</h1>
                     </div>
                     <div class="canto_direito">
                         <ul>
-                            <li><a href="#">> Carlos Vieira Santos - Solicita aprovação de cadastro</a></li>
-                            <li><a href="#">> Carlos Vieira Santos - Solicita aprovação de cadastro</a></li>
-                            <li><a href="#">> Carlos Vieira Santos - Solicita aprovação de cadastro</a></li>
-                            <li><a href="#">> Carlos Vieira Santos - Solicita aprovação de cadastro</a></li>
-                            <li><a href="#">> Carlos Vieira Santos - Solicita aprovação de cadastro</a></li>
-                            <li><a href="#">> Carlos Vieira Santos - Solicita aprovação de cadastro</a></li>
-                            <li><a href="#">> Carlos Vieira Santos - Solicita aprovação de cadastro</a></li>
-                            <li><a href="#">> Carlos Vieira Santos - Solicita aprovação de cadastro</a></li>
-                            <li><a href="#">> Carlos Vieira Santos - Solicita aprovação de cadastro</a></li>
-                            <li><a href="#">> Carlos Vieira Santos - Solicita aprovação de cadastro</a></li>
+                            <li><a href="#">> Seu Cadastro está pendente</a></li>
+                            <li><a href="#">> Seu pedido henf#08765 foi aprovado</a></li>
+                            <li><a href="#">> Notificação</a></li>
+                            <li><a href="#">> Notificação</a></li>
+                            <li><a href="#">> Notificação</a></li>
+                            <li><a href="#">> Notificação</a></li>
+                            <li><a href="#">> Notificação</a></li>
+                            <li><a href="#">> Notificação</a></li>
+                            <li><a href="#">> Notificação</a></li>
+                            <li><a href="#">> Notificação</a></li>
                         </ul>
                     </div>
                 </section>
@@ -50,4 +50,4 @@ class admNovosCadastros extends Component {
     }
 }
 
-export default admNovosCadastros;
+export default Notificacao;

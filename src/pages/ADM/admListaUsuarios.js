@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../../assets/PagesHtml/perfil_Usuario/CSS/PerfilUsuario.css';
+import '../../assets/CSS/ADM/PerfilUsuario.css';
 import MenuAdm from '../../Componentes/MenuADM';
 import { Link } from 'react-router-dom';
 
