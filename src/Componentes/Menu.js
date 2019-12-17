@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/PagesHtml/HOME/CSS/style.css';
+import {Link} from 'react-router-dom';
 
 //Importando as imagens
 import logo from '../assets/imagens/logo1.png';
@@ -51,7 +52,7 @@ function Menu() {
 
                     <div className="minhaconta_sair">
                         <ul>
-                            <li><a href="../Editado-Tw/PerfilUsuário_MeusPedidos.html" className="botao_minhaconta">MinhaConta</a></li>
+                            <li><Link to ="/notebooks">Minha Conta</a></li>
                             <li><a href="../Editado-Tw/login.html" className="botao_sair">Sair</a></li>
                         </ul>
                     </div>
@@ -66,51 +67,43 @@ function Menu() {
                     {/* <!--Menu inferior--> */}
                     <ul>
                         {/* <!--Menu categorias--> */}
-                        <li><a href="#">
+                        <li><Link to ="/notebooks">
                                 {/* <!--Notebooks--> */}
                                 <div className="lista_categorias">
                                     <img src={hover_Notebook} alt="Notebooks" className="notebooks"/>
                                     <img src={notebook} alt="Notebooks"/>
                                 </div>
                             <p>Notebooks</p>
-                        </a></li>
+                        </Link></li>
 
-                        <li><a href="#">
+                        <li><Link to ="/smartphones">
                                 {/* <!--Smartphones--> */}
                                 <div className="lista_categorias">
                                     <img src={hover_Celular} alt="Smartphones" className="smartphones"/>
                                     <img src={celular} alt="Smartphones"/>
                                 </div>
                             <p>Smartphones</p>
-                        </a></li>
+                        </Link></li>
 
 
-                        <li><a href="#">
+                        <li><Link to ="/monitores">
                                 {/* <!--Monitores--> */}
                                 <div className="lista_categorias">
                                     <img src={hover_Monitor} alt="Monitores" className="monitores"/>
                                     <img src={monitor} alt="Monitores"/>
                                 </div>
                             <p>Monitores</p>
-                        </a></li>
+                        </Link></li>
 
-                        <li><a href="#">
+                        <li><Link to ="/acessorios">
                                 {/* <!--Acessórios--> */}
                                 <div className="lista_categorias">
                                     <img src={hover_Acessorio} alt="Acessórios" className="acessorios"/>
                                     <img src={acessorio} alt="Acessórios"/>
                                 </div>
                             <p>Acessórios</p>
-                        </a></li>
+                        </Link></li>
 
-                        <li><a href="#">
-                                {/* <!--Todas categorias--> */}
-                                <div className="lista_categorias">
-                                    <img src={hover_categoria} alt="Todas as Categorias" className="todas_as_categorias"/>
-                                    <img src={categoria} alt="Todas as Categorias"/>
-                                </div>
-                            <p>Todas <br/> categorias</p>
-                        </a></li>
                     </ul>
                     {/* <!--Fim menu categorias--> */}
                 </nav>

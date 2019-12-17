@@ -6,6 +6,7 @@ import CarouselPage from '../../Componentes/Carrossel';
 
 import notebook from '../../assets/imagens/note1.jpg';
 import smartphone from '../../assets/imagens/phone7.jpg';
+import { Link } from 'react-router-dom';
 
 
 class Home extends Component {
@@ -58,7 +59,7 @@ class Home extends Component {
                     <span className="valor_Maior">R$000</span>
                 </div>  
             </div>
-              <a href="#" className="botao">Ver mais >>></a>
+              <Link to ="/notebooks">Ver mais >>></Link>
         </section>
         {/* <!--Fim img1--> */}
         <hr className="hr"/>
@@ -101,7 +102,7 @@ class Home extends Component {
                     <span className="valor_Maior">R$000</span>
                 </div>  
             </div>
-                <a href="#" className="botao">Ver mais >>></a>
+            <Link to ="/smartphones">Ver mais >>></Link>
         </section>
         {/* <!--Fim img2--> */}
     </main>
