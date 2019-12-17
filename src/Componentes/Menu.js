@@ -9,14 +9,13 @@ import hover_Notebook from  '../assets/imagens/Hover/laptop.png';
 import notebook from  '../assets/imagens/laptop.png';
 import hover_Celular from  '../assets/imagens/Hover/mobile-phone.png';
 import celular from  '../assets/imagens/mobile-phone.png';
-import hover_Impressora from  '../assets/imagens/Hover/printer.png';
-import impressora from  '../assets/imagens/printer.png';
 import hover_Monitor from  '../assets/imagens/Hover/television.png';
 import monitor from  '../assets/imagens/television.png';
 import hover_Acessorio from  '../assets/imagens/Hover/usb.png';
 import acessorio from  '../assets/imagens/usb.png';
-import hover_categoria from '../assets/imagens/Hover/categorias.png';
-import categoria from  '../assets/imagens/categoria.png';
+import compras from '../assets/imagens/bags.png';
+import menssage from '../assets/imagens/message.png';
+
 
 
 function Menu() {
@@ -50,9 +49,21 @@ function Menu() {
                         </form>
                     </div>
 
+                    <div className="icones_compras_mensagem">
+
+                        <Link to = "/perfiladminteresse">
+                            <img id="sacola_compras" src={compras}alt="Sacola de pedidos" />
+                        </Link>
+
+                        <a href="#">
+                            <img id="mensagens" src={menssage} alt="Notificações"/>
+                        </a>
+
+                    </div>
+
                     <div className="minhaconta_sair">
                         <ul>
-                            <li><Link to ="/notebooks">Minha Conta</a></li>
+                            <li><Link to ="/notebooks">Minha Conta</Link></li>
                             <li><a href="../Editado-Tw/login.html" className="botao_sair">Sair</a></li>
                         </ul>
                     </div>

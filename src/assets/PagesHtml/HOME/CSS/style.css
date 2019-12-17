@@ -244,18 +244,6 @@ body{
     display: inline;
 }
 
-/*<!--Impressoras-->*/
-
-.lista_categorias .impressoras {
-    display: none;
-    position: absolute;
-    margin: auto;
-    z-index: 99;
-}
-
-.lista_categorias:hover .impressoras {
-    display: inline;
-}
 
 /*<!--Monitores-->*/
 .lista_categorias .monitores {
@@ -281,17 +269,7 @@ body{
     display: inline;
 }
 
-/*<!--Todas categorias-->*/
-.lista_categorias .todas_as_categorias {
-    display: none;
-    position: absolute;
-    margin: auto;
-    z-index: 99;
-}
 
-.lista_categorias:hover .todas_as_categorias {
-    display: inline;
-}
 
 .lista_categorias:hover {
     background: #f16984;
